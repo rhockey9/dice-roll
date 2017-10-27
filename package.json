@@ -1,0 +1,24 @@
+{
+  "name": "dice-roll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhockey9/dice-roll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhockey9/dice-roll/issues"
+  },
+  "homepage": "https://github.com/rhockey9/dice-roll#readme",
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
+}
