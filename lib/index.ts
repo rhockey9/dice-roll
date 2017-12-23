@@ -18,6 +18,19 @@ export function rollDice(dice_type: diceType, dice_count: number): number[] {
     return rolls;
 }
 
+export function verifyDiceValue(dice_type: diceType, dice_value: number): boolean  {
+    let valid: boolean = false;
+    if(dice_type == diceType.Standard)
+    {
+        if(dice_value >= 1 && dice_value <= 6 )
+        {
+            valid = true;
+        }
+    }
+
+    return valid;
+}
+
 function getRoll(dice_type: diceType): number{
     let roll: number = 0;
     if(dice_type == diceType.Standard)
